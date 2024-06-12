@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcjtxsd7itpi0"
-path="res://.godot/imported/SMP - Main Menu.png-e6399f1604afc940462741ce9354371a.ctex"
+uid="uid://bnabahm1d8glr"
+path="res://.godot/imported/knight.png-64a2465f61503403d9ee0864076e6536.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/screenshots/SMP - Main Menu.png"
-dest_files=["res://.godot/imported/SMP - Main Menu.png-e6399f1604afc940462741ce9354371a.ctex"]
+source_file="res://tutorial_game/assets/sprites/knight.png"
+dest_files=["res://.godot/imported/knight.png-64a2465f61503403d9ee0864076e6536.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcjtxsd7itpi0"
-path="res://.godot/imported/SMP - Main Menu.png-e6399f1604afc940462741ce9354371a.ctex"
+uid="uid://j77vpr4owm34"
+path="res://.godot/imported/coin.png-dd76e2b761a9459195367dde01117ba4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/screenshots/SMP - Main Menu.png"
-dest_files=["res://.godot/imported/SMP - Main Menu.png-e6399f1604afc940462741ce9354371a.ctex"]
+source_file="res://tutorial_game/assets/sprites/coin.png"
+dest_files=["res://.godot/imported/coin.png-dd76e2b761a9459195367dde01117ba4.ctex"]
 
 [params]
 

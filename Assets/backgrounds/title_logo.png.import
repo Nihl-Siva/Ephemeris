@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcjtxsd7itpi0"
-path="res://.godot/imported/SMP - Main Menu.png-e6399f1604afc940462741ce9354371a.ctex"
+uid="uid://dtd2ypa7k1cbh"
+path="res://.godot/imported/title_logo.png-3439ead4c241ffcaa532b694bc2b1bcc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/screenshots/SMP - Main Menu.png"
-dest_files=["res://.godot/imported/SMP - Main Menu.png-e6399f1604afc940462741ce9354371a.ctex"]
+source_file="res://assets/backgrounds/title_logo.png"
+dest_files=["res://.godot/imported/title_logo.png-3439ead4c241ffcaa532b694bc2b1bcc.ctex"]
 
 [params]
 

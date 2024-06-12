@@ -11,13 +11,13 @@ config_version=5
 [application]
 
 config/name="Ephemeris"
-run/main_scene="res://Scenes/Menus/StartMenu.tscn"
+run/main_scene="res://scenes/menus/start_menu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
-Music="*res://TutorialGame/scenes/music.tscn"
+Music="*res://tutorial_game/scenes/music.tscn"
 
 [editor]
 

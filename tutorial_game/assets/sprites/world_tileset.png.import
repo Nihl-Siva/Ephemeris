@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcjtxsd7itpi0"
-path="res://.godot/imported/SMP - Main Menu.png-e6399f1604afc940462741ce9354371a.ctex"
+uid="uid://cvd4d6e4fk5c5"
+path="res://.godot/imported/world_tileset.png-e1f9a0101bc09fee5706e6b6fc931dd4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/screenshots/SMP - Main Menu.png"
-dest_files=["res://.godot/imported/SMP - Main Menu.png-e6399f1604afc940462741ce9354371a.ctex"]
+source_file="res://tutorial_game/assets/sprites/world_tileset.png"
+dest_files=["res://.godot/imported/world_tileset.png-e1f9a0101bc09fee5706e6b6fc931dd4.ctex"]
 
 [params]
 

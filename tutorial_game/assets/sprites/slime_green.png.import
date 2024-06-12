@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcjtxsd7itpi0"
-path="res://.godot/imported/SMP - Main Menu.png-e6399f1604afc940462741ce9354371a.ctex"
+uid="uid://if68qja6bsec"
+path="res://.godot/imported/slime_green.png-a1b61a0cd5d845fcecc5645b6292972b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/screenshots/SMP - Main Menu.png"
-dest_files=["res://.godot/imported/SMP - Main Menu.png-e6399f1604afc940462741ce9354371a.ctex"]
+source_file="res://tutorial_game/assets/sprites/slime_green.png"
+dest_files=["res://.godot/imported/slime_green.png-a1b61a0cd5d845fcecc5645b6292972b.ctex"]
 
 [params]
 

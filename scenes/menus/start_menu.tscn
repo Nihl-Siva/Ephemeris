@@ -1,0 +1,119 @@
+[gd_scene load_steps=6 format=3 uid="uid://q46ibinmqrxc"]
+
+[ext_resource type="Script" path="res://Scenes/Menus/start_menu.gd" id="1_vpcoy"]
+[ext_resource type="Theme" uid="uid://d33ss6oehk7e7" path="res://assets/styles/start_menu_button_style.tres" id="2_rgjpl"]
+[ext_resource type="Texture2D" uid="uid://dphrcupsgjr2t" path="res://assets/backgrounds/start_menu_background.jpg" id="3_snw8d"]
+[ext_resource type="Texture2D" uid="uid://dtd2ypa7k1cbh" path="res://assets/backgrounds/title_logo.png" id="4_c6xvq"]
+
+[sub_resource type="Theme" id="Theme_jeh72"]
+
+[node name="StartMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vpcoy")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+z_index = 1
+texture_filter = 2
+layout_direction = 2
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 976.0
+offset_top = -145.0
+offset_right = 1144.0
+offset_bottom = -7.0
+grow_vertical = 0
+theme = ExtResource("2_rgjpl")
+alignment = 1
+
+[node name="PlayButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+focus_neighbor_top = NodePath("../QuitButton")
+focus_neighbor_bottom = NodePath("../LoadButton")
+focus_next = NodePath("../LoadButton")
+focus_previous = NodePath("../QuitButton")
+text = "Play"
+
+[node name="LoadButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+focus_neighbor_top = NodePath("../PlayButton")
+focus_neighbor_bottom = NodePath("../OptionsButton")
+focus_next = NodePath("../OptionsButton")
+focus_previous = NodePath("../PlayButton")
+theme = SubResource("Theme_jeh72")
+text = "Load"
+
+[node name="OptionsButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+focus_neighbor_top = NodePath("../LoadButton")
+focus_neighbor_bottom = NodePath("../WebsiteButton")
+focus_next = NodePath("../WebsiteButton")
+focus_previous = NodePath("../LoadButton")
+text = "Options"
+
+[node name="WebsiteButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+focus_neighbor_top = NodePath("../OptionsButton")
+focus_neighbor_bottom = NodePath("../HallOfFameButton")
+focus_next = NodePath("../HallOfFameButton")
+focus_previous = NodePath("../OptionsButton")
+text = "Website"
+
+[node name="HallOfFameButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+focus_neighbor_top = NodePath("../WebsiteButton")
+focus_neighbor_bottom = NodePath("../CreditsButton")
+focus_next = NodePath("../CreditsButton")
+focus_previous = NodePath("../WebsiteButton")
+text = "Hall of Fame"
+
+[node name="CreditsButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+focus_neighbor_top = NodePath("../HallOfFameButton")
+focus_neighbor_bottom = NodePath("../QuitButton")
+focus_next = NodePath("../QuitButton")
+focus_previous = NodePath("../HallOfFameButton")
+text = "Credits"
+
+[node name="QuitButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+focus_neighbor_top = NodePath("../CreditsButton")
+focus_neighbor_bottom = NodePath("../PlayButton")
+focus_next = NodePath("../PlayButton")
+focus_previous = NodePath("../CreditsButton")
+text = "Quit"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+mouse_filter = 2
+texture = ExtResource("3_snw8d")
+expand_mode = 2
+
+[node name="TitleLogo" type="Sprite2D" parent="."]
+texture_filter = 2
+position = Vector2(746, 211)
+texture = ExtResource("4_c6xvq")
+
+[connection signal="mouse_entered" from="VBoxContainer" to="." method="_on_v_box_container_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/LoadButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/OptionsButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/WebsiteButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/HallOfFameButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/CreditsButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]

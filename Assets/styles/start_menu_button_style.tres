@@ -1,0 +1,26 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://d33ss6oehk7e7"]
+
+[ext_resource type="FontFile" uid="uid://du8fhd0ox5g5c" path="res://tutorial_game/assets/fonts/PixelOperator8-Bold.ttf" id="1_ouryu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5mgov"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bdo1e"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_74e56"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3ktcg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t2cmx"]
+
+[resource]
+Button/colors/font_color = Color(0.875, 0.875, 0.875, 1)
+Button/colors/font_focus_color = Color(0.94902, 0.94902, 0, 1)
+Button/colors/font_hover_color = Color(0.94902, 0.94902, 0, 1)
+Button/colors/font_pressed_color = Color(1, 0, 0, 1)
+Button/font_sizes/font_size = 16
+Button/fonts/font = ExtResource("1_ouryu")
+Button/styles/disabled = SubResource("StyleBoxEmpty_5mgov")
+Button/styles/focus = SubResource("StyleBoxEmpty_bdo1e")
+Button/styles/hover = SubResource("StyleBoxEmpty_74e56")
+Button/styles/normal = SubResource("StyleBoxEmpty_3ktcg")
+Button/styles/pressed = SubResource("StyleBoxEmpty_t2cmx")
