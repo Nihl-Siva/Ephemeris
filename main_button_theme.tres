@@ -1,0 +1,17 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://bymvto1du65xn"]
+
+[ext_resource type="FontFile" uid="uid://cdmrtbahegs4w" path="res://TutorialGame/assets/fonts/PixelOperator8.ttf" id="1_ar3jf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_inhuc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5fmf6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dwdyq"]
+
+[resource]
+default_font = ExtResource("1_ar3jf")
+default_font_size = 8
+Button/font_sizes/font_size = 8
+Button/styles/disabled = SubResource("StyleBoxEmpty_inhuc")
+Button/styles/hover = SubResource("StyleBoxEmpty_5fmf6")
+Button/styles/normal = SubResource("StyleBoxEmpty_dwdyq")

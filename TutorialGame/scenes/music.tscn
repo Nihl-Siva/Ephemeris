@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://0e3xetucxanf"]
+
+[ext_resource type="AudioStream" uid="uid://cf4jq3e82ee82" path="res://TutorialGame/assets/music/time_for_adventure.mp3" id="1_7ql16"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_7ql16")
+volume_db = -21.989
+autoplay = true
